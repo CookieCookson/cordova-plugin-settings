@@ -4,7 +4,7 @@
 @interface CDVSettings () {}
 @end
 
-@implementation CDVDevice
+@implementation CDVSettings
 
 - (void)openSettings:(CDVInvokedUrlCommand*)command
 {
