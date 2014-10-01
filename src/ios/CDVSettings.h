@@ -1,6 +1,6 @@
 @interface CDVSettings : CDVPlugin
 {}
 
-- (void)getDeviceInfo:(CDVInvokedUrlCommand*)command;
+- (void)openSettings:(CDVInvokedUrlCommand*)command;
 
 @end
