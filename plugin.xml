@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.elixel.cordova.settings" version="0.0.1">
+<plugin id="com.elixel.plugins.settings" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>Settings</name>
     <description>Cordova Settings Plugin</description>
     <license></license>
     <keywords>cordova,settings</keywords>
+    <repo>https://github.com/CookieCookson/cordova-plugin-settings</repo>
+    <issue>https://github.com/CookieCookson/cordova-plugin-settings/issues</issue>
+
     <js-module src="www/settings.js" name="settings">
-        <clobbers target="settings" />
+        <merges target="settings" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
