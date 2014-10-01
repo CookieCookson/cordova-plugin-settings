@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.elixel.cordova.settings" version="0.0.1">
+    <name>Settings</name>
+    <description>Cordova Settings Plugin</description>
+    <license></license>
+    <keywords>cordova,settings</keywords>
+    <js-module src="www/settings.js" name="settings">
+        <clobbers target="settings" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Settings">
+                <param name="ios-package" value="CDVSettings"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVSettings.h" />
+        <source-file src="src/ios/CDVSettings.m" />
+    </platform>
+</plugin>
