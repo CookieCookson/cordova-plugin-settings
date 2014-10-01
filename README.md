@@ -5,3 +5,8 @@ This plugin opens the iOS Settings panel for the currently running App. This wil
 ## Installation
 
 cordova plugin add https://github.com/CookieCookson/cordova-plugin-settings
+
+## Usage
+
+###settings.openSettings();
+Opens the Settings App on your app's settings page. If your app does not have a settings page, the main settings page will be displayed instead.
