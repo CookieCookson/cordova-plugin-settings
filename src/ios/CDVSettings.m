@@ -6,8 +6,7 @@
 
 @implementation CDVSettings
 
-- (void)openSettings:(CDVInvokedUrlCommand*)command
-{
+- (void)openSettings:(CDVInvokedUrlCommand*)command {
     BOOL canOpenSettings = (&UIApplicationOpenSettingsURLString != NULL);
     if (canOpenSettings) {
         NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
