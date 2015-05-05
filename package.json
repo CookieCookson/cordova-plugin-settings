@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-settings",
+  "version": "1.0.1",
+  "description": "Cordova Settings Plugin",
+  "cordova": {
+    "id": "cordova-plugin-settings",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookieCookson/cordova-plugin-settings.git"
+  },
+  "keywords": [
+    "cordova",
+    "settings",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Christian Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CookieCookson/cordova-plugin-settings/issues"
+  },
+  "homepage": "https://github.com/CookieCookson/cordova-plugin-settings#readme"
+}

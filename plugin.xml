@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="com.elixel.plugins.settings" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-settings" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>Settings</name>
     <description>Cordova Settings Plugin</description>
     <license></license>
