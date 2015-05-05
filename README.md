@@ -9,7 +9,7 @@ by [Christian Cook](http://twitter.com/cookie_cookson)
 ## Installation
 
 ```
-$ cordova plugin add https://github.com/CookieCookson/cordova-plugin-settings
+$ cordova plugin add cordova-plugin-settings
 $ cordova prepare
 ```
 
